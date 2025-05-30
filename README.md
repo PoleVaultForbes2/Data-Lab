@@ -62,8 +62,9 @@ You **may not**:
 int bitOr(int x, int y) {
   return ~(~x & ~y);
 }
+```
 
-##How to Run
+## How to Run
 
 1. Compile with make or use provided build script.
 2. Run tests:
@@ -75,5 +76,5 @@ int bitOr(int x, int y) {
 ./dlc bits.c
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-##License
+## License
 This project follows the GNU Lesser General Public License v2.1 or later, as noted in the source headers.
